@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var arrayA = [1, 2];
+var arrayB = [3, 4];
+var newArray = arrayA.concat(arrayB);
+console.log(newArray)
+    </script>
+</body>
+</html> 

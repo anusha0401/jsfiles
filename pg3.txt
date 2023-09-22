@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
+<body>
+<p>Multiplying matrices with math</p>
+<div id="demo"></div>
+<script>
+const mA = math.matrix([[1, 2, 3], [4,5,7]]);
+const mB = math.matrix([[1, 2, 3], [1,2,3], [1, 2, 3]]);
+const matrixMult = math.multiply(mA, mB);// Matrix Multiplication
+document.getElementById("demo").innerHTML = matrixMult;
+</script>
+
+</body>
+</html>
